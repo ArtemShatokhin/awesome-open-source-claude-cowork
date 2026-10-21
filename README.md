@@ -14,7 +14,7 @@ Kortix is the open-source AI Operating System: your agents, their skills, your c
 
 The configuration is code. Agents and skills are markdown files, company memory is files that accumulate, and `kortix.yaml` declares the connectors, triggers and machine image a session boots. Because the repository is versioned and diffable, you can grep the whole company and roll any part of it back. OpenCode is the harness that reads those files and turns a model into an agent.
 
-Each session runs on its own isolated machine and branch. An agent plans, runs tools, commits and pushes, then opens a change request. Session work reaches `main` through a change request, and merge is default-deny for agents, so a person reads the diff before it lands ([Read the docs](https://kortix.com/docs)).
+Each session runs on its own isolated machine and branch. An agent plans, runs tools, commits and pushes, then opens a change request.
 
 Models are a separate choice from the platform. Any model provider works with your own keys, or you can use the ChatGPT plan you already pay for, or sign in with your OpenCode Console account for OpenCode Zen and Go. Connectors reach 3,000+ apps in a click, plus MCP, OpenAPI, Postman, GraphQL and raw HTTP, and connector credentials are brokered server-side and never enter the machine.
 
@@ -64,6 +64,11 @@ The [decision guide](docs/choosing-an-open-source-claude-cowork-alternative.md) 
 - [Choosing an open-source Claude Cowork alternative](docs/choosing-an-open-source-claude-cowork-alternative.md)
 - [Self-hosting an open-source Claude Cowork alternative](docs/self-hosting-claude-cowork-alternative.md)
 - [FAQ](docs/faq.md)
+- [Where the conversation is](docs/where-the-conversation-is.md)
+
+## What the issue trackers say
+
+[Where the conversation is](docs/where-the-conversation-is.md) reads three open threads on projects in this list: OpenHands on whether a self-hosted run can be stopped at a spend ceiling, Eigent on whether a local model writes files to the workspace, and OpenWork on whether its Docker path is deliverable for browser tasks. Each entry gives the URL and one line on what the thread settles, plus a five-minute method for reading the next one.
 
 ## Contributing
 
