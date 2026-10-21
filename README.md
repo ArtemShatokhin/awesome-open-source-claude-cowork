@@ -58,6 +58,10 @@ The [decision guide](docs/choosing-an-open-source-claude-cowork-alternative.md) 
 - [Self-hosting an open-source Claude Cowork alternative](https://opensourceclaudecowork.com/self-hosting): the install, command by command.
 - [Self-hosted AI workspace](https://opensourceclaudecowork.com/self-hosted-ai-workspace): the two layers behind the phrase, and what each one costs.
 - [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work): the two closed platforms, and the open-source third option.
+- [What Claude Cowork actually is](https://opensourceclaudecowork.com/what-is-claude-cowork): the product, the September 2026 merge, and what open source changes.
+- [Claude Cowork plugins](https://opensourceclaudecowork.com/claude-cowork-plugins): forkable files inside a runtime you do not host.
+- [Open-source Claude Cowork projects on GitHub](https://opensourceclaudecowork.com/claude-cowork-github-projects): each repository read by what it actually keeps.
+- [What the Reddit threads show](https://opensourceclaudecowork.com/open-source-claude-cowork-reddit): what broke after install, and when it was reported.
 
 ## Docs in this repository
 
