@@ -10,7 +10,7 @@ Claude Cowork has no self-hosted edition. It runs on Anthropic's cloud or in you
 - A domain, with A or AAAA records for the domain and for `api.<domain>`.
 - Ports 80 and 443 open, so the bundled Caddy proxy can issue its TLS certificate.
 - Docker on the host, or let the bootstrap script install it.
-- A sandbox provider key. Daytona is the default, and Platinum and E2B are also supported.
+- A Platinum API key (`PLATINUM_API_KEY`). Sessions do not start without it.
 - Model keys, connected in the dashboard's model picker. A self-hosted instance uses your key by default.
 
 Agent sessions do not run on this box. They run on the sandbox provider, which keeps the host small and lets parallel work scale off it.
@@ -90,7 +90,7 @@ The first is the image registry. `kortix self-host start` pulls its images from 
 kortix self-host update --tag <version>
 ```
 
-The second is the sandbox provider. Agent sessions run on Daytona by default, or Platinum or E2B, and the API reaches that provider over egress. A self-hosted Kortix is not a fully offline install, and the trade is deliberate: parallel sessions consume the provider's compute instead of your box's CPU and memory.
+The second is the sandbox provider. Agent sessions run on Platinum, the reference sandbox provider, and the API reaches that provider over egress. A self-hosted Kortix is not a fully offline install, and the trade is deliberate: parallel sessions consume the provider's compute instead of your box's CPU and memory.
 
 ## Keep the review gate on a self-hosted box
 
@@ -107,7 +107,7 @@ On a self-hosted box this gate is the point. The agent holds broad tool access i
 ## Before you onboard the team
 
 - A persistent domain with A or AAAA records for the domain and `api.<domain>`, and ports 80 and 443 open.
-- A sandbox provider key, Daytona by default, or Platinum or E2B.
+- A Platinum API key, so sessions can start.
 - Model keys connected in the dashboard's model picker.
 - Off-box copies of the database, the storage and the `.env` file.
 - An update policy: the stable channel, or a pinned version with auto-update off.
