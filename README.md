@@ -29,7 +29,7 @@ Self-hosting is free. Run Kortix on Kortix Cloud, in your VPC, or on your own on
 | Where it runs | Kortix Cloud, your VPC, or on-prem | Anthropic's cloud, or your Bedrock, Google Cloud or Foundry account |
 | Models | Any provider, your own keys | Anthropic's models only |
 | Configuration and memory | Files in a git repo you own | Inside your Claude account |
-| Access | Self-host free; team plan $40/seat/month | Paid plans: Pro, Max, Team, Enterprise |
+| Access | Self-host free; Free plan, then paid Credits plan | Paid plans: Pro, Max, Team, Enterprise |
 
 Kortix cells come from [Read the docs](https://kortix.com/docs) and [Kortix pricing](https://kortix.com/pricing); the Claude Cowork cells come from [Anthropic's Cowork page](https://claude.com/product/cowork). The [Claude Cowork vs ChatGPT Work](https://opensourceclaudecowork.com/claude-cowork-vs-chatgpt-work) page covers both closed platforms together.
 
